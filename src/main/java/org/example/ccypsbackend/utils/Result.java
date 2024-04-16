@@ -1,4 +1,4 @@
-package utils;
+package org.example.ccypsbackend.utils;
 
 
 import lombok.Data;

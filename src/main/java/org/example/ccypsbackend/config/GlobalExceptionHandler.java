@@ -1,4 +1,4 @@
-package config;
+package org.example.ccypsbackend.config;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -7,10 +7,8 @@ import java.net.BindException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
-import utils.Result;
-import utils.ResultCode;
+import org.example.ccypsbackend.utils.Result;
+import org.example.ccypsbackend.utils.ResultCode;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

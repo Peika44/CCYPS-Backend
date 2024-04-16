@@ -1,9 +1,9 @@
-package post.controller;
+package org.example.ccypsbackend.post.controller;
 
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import post.controller.param.PostParam;
-import utils.Result;
+import org.example.ccypsbackend.post.controller.param.PostParam;
+import org.example.ccypsbackend.utils.Result;
 
 @RestController
 @RequestMapping("/api/post")

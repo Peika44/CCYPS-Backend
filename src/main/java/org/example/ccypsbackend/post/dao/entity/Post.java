@@ -1,4 +1,4 @@
-package post.dao.entity;
+package org.example.ccypsbackend.post.dao.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

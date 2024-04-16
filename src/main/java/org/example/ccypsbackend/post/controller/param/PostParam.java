@@ -1,4 +1,4 @@
-package post.controller.param;
+package org.example.ccypsbackend.post.controller.param;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

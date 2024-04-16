@@ -1,7 +1,7 @@
-package post.dao.repo;
+package org.example.ccypsbackend.post.dao.repo;
 
+import org.example.ccypsbackend.post.dao.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
-import post.dao.entity.Post;
 
 public interface PostRepository extends JpaRepository<Post, Long> {
 }

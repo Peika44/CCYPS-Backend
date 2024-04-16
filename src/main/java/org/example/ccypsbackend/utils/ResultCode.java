@@ -1,4 +1,4 @@
-package utils;
+package org.example.ccypsbackend.utils;
 
 public interface ResultCode {
     public static Integer SUCCESS = 20000; //success
