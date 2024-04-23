@@ -28,9 +28,9 @@ public class PostController {
         return postId;
     }
 
-    @PostMapping("/addPost")
-    public Result addPost(@RequestBody @Validated PostParam postParam){
-        System.out.println(postParam);
-        return Result.ok().data("data",postParam);
-    }
+//    @PostMapping("/addPost")
+//    public Result<?> addPost(@RequestBody @Validated PostParam postParam){
+//        System.out.println(postParam);
+//        return Result.success().data("data",postParam);
+//    }
 }
