@@ -16,8 +16,8 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public Result<User> login(@RequestBody User user) {
-        User loginUser = userService.login(user.getUname(), user.getPassword());
+    public Result<User> login(@RequestParam String uname, @RequestParam String password) {
+        User loginUser = userService.login(uname, password);
         if (loginUser != null) {
             return Result.success(loginUser, "Login success.");
         } else {
